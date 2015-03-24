@@ -1,6 +1,10 @@
 package edu.css.mjackson1.businesscontacts;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
 import android.widget.TextView;
 import android.app.Activity;
 
@@ -43,6 +47,29 @@ public class SecondActivity extends Activity {
             txtHours.setText("Monday-Thursday: 4:00pm-10:00pm\nFriday-Sunday: 11:00am-11:00pm");
         }
     }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflates the menu and adds items to the action bar if present.
+        getMenuInflater().inflate(R.menu.menu_second, menu);
+        return true;
+    }
 
+    public void onClickCall (View v) {
+        if (businessNum.equals("1")) {
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("tel:2187228767"));
+            startActivity(callIntent);
+        }
+        if (businessNum.equals("2")) {
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("2187278851"));
+            startActivity(callIntent);
+        }
+        if (businessNum.equals("3")) {
+            Intent callIntent = new Intent(Intent.ACTION_CALL);
+            callIntent.setData(Uri.parse("2186247427"));
+            startActivity(callIntent);
+        }
+    }
 
 }
