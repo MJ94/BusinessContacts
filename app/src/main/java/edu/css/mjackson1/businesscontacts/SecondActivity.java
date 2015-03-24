@@ -62,12 +62,12 @@ public class SecondActivity extends Activity {
         }
         if (businessNum.equals("2")) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("2187278851"));
+            callIntent.setData(Uri.parse("tel:2187278851"));
             startActivity(callIntent);
         }
         if (businessNum.equals("3")) {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
-            callIntent.setData(Uri.parse("2186247427"));
+            callIntent.setData(Uri.parse("tel:2186247427"));
             startActivity(callIntent);
         }
     }
