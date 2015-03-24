@@ -4,4 +4,11 @@
     <string name="app_name">BusinessContacts</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="bestbuy">Best Buy</string>
+    <string name="target">Target</string>
+    <string name="texasroadhouse">Texas Roadhouse</string>
+    <string name="businessname">Business Name</string>
+    <string name="businesssummary">Business Summary</string>
+    <string name="businessaddress">Business Address</string>
+    <string name="businesshours">Business Hours</string>
 </resources>

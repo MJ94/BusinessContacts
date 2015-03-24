@@ -10,7 +10,7 @@
         android:id="@+id/txtName"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Business Name"
+        android:text="@string/businessname"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffff8000" />
 
@@ -18,7 +18,7 @@
         android:id="@+id/txtSummary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Business Summary"
+        android:text="@string/businesssummary"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ff0101df" />
 
@@ -26,7 +26,7 @@
         android:id="@+id/txtLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Business Address"
+        android:text="@string/businessaddress"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ff9a2efe" />
 
@@ -34,7 +34,7 @@
         android:id="@+id/txtHours"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Business Hours"
+        android:text="@string/businesshours"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FF0040"
         android:textIsSelectable="true" />
