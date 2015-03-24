@@ -11,37 +11,39 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Business Name"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffff8000" />
 
     <TextView
         android:id="@+id/txtSummary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Business Summary"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ff040404" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff0101df" />
 
     <TextView
         android:id="@+id/txtLocation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Business Address"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ff040404" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff9a2efe" />
 
     <TextView
         android:id="@+id/txtHours"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Business Hours"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0040"
+        android:textIsSelectable="true" />
 
-    <!--<Button
+    <Button
         android:id="@+id/button1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onClickCall"
-        android:text="Call Business"
-        Commenting until rest of code is running./>-->
+        android:text="Call Business" />
 
 </LinearLayout>

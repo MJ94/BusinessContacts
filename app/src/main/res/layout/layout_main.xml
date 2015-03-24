@@ -28,7 +28,7 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClickB1"
+            android:onClick="onClickButton1"
             android:text="Best Buy" />
 
     </LinearLayout>
@@ -47,7 +47,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClickB2"
+            android:onClick="onClickButton2"
             android:text="Target" />
 
     </LinearLayout>
@@ -66,7 +66,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onClickB3"
+            android:onClick="onClickButton3"
             android:text="Texas Roadhouse" />
 
     </LinearLayout>
